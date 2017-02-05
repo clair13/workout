@@ -2,7 +2,7 @@
 @import "bootstrap";
 
 body {
-  padding-top: 80px;
+  margin-top: 80px;
 }
 
 // navbar styling
@@ -46,19 +46,6 @@ body {
   color: #ff0000;
 }
 
-.signed-in-user {
-  padding-top: 10px;
-  padding-right: 20px;
-}
-
-.signed-in-user .navbar-text {
-  color: #ffffff;
-}
-
-.navbar-form {
-  margin-top: 20px;
-}
-
 // Devise Error Messages
 #error_explanation {
  background-color: #f2dede;
@@ -70,6 +57,15 @@ body {
 
 #error_explanation h2 {
  font-size: 150%;
+}
+
+.signed-in-user {
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+.signed-in-user .navbar-text {
+  color: #ffffff;
 }
 
 // Link styling
